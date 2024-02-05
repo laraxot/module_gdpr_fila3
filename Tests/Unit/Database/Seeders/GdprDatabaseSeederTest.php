@@ -21,7 +21,7 @@ final class GdprDatabaseSeederTest extends TestCase
         parent::setUp();
 
         /* @todo Correctly instantiate tested object to use it. */
-        $this->gdprDatabaseSeeder = new GdprDatabaseSeeder();
+        $this->gdprDatabaseSeeder = new GdprDatabaseSeeder;
     }
 
     protected function tearDown(): void

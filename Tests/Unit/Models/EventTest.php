@@ -21,7 +21,7 @@ final class EventTest extends TestCase
         parent::setUp();
 
         /* @todo Correctly instantiate tested object to use it. */
-        $this->event = new Event();
+        $this->event = new Event;
     }
 
     protected function tearDown(): void

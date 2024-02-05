@@ -20,7 +20,7 @@ final class CreateGdprEventsTableTest extends TestCase
         parent::setUp();
 
         /* @todo Correctly instantiate tested object to use it. */
-        $this->createGdprEventsTable = new \CreateGdprEventsTable();
+        $this->createGdprEventsTable = new \CreateGdprEventsTable;
     }
 
     protected function tearDown(): void
