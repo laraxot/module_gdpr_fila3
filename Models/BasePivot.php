@@ -26,11 +26,11 @@ abstract class BasePivot extends Pivot
 
     /** @var bool */
     public $incrementing = true;
+
     /** @var int */
     protected $perPage = 30;
 
     // use Searchable;
-
     /** @var string */
     protected $connection = 'user';
 

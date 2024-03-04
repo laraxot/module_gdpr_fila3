@@ -21,7 +21,7 @@ final class ConsentTest extends TestCase
         parent::setUp();
 
         /* @todo Correctly instantiate tested object to use it. */
-        $this->consent = new Consent();
+        $this->consent = new Consent;
     }
 
     protected function tearDown(): void

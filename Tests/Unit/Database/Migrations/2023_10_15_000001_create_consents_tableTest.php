@@ -20,7 +20,7 @@ final class CreateConsentsTableTest extends TestCase
         parent::setUp();
 
         /* @todo Correctly instantiate tested object to use it. */
-        $this->createConsentsTable = new \CreateConsentsTable();
+        $this->createConsentsTable = new \CreateConsentsTable;
     }
 
     protected function tearDown(): void

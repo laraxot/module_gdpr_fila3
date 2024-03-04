@@ -21,7 +21,7 @@ final class TreatmentFactoryTest extends TestCase
         parent::setUp();
 
         /* @todo Correctly instantiate tested object to use it. */
-        $this->treatmentFactory = new TreatmentFactory();
+        $this->treatmentFactory = new TreatmentFactory;
     }
 
     protected function tearDown(): void

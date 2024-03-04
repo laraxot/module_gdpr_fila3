@@ -21,7 +21,7 @@ final class EventFactoryTest extends TestCase
         parent::setUp();
 
         /* @todo Correctly instantiate tested object to use it. */
-        $this->eventFactory = new EventFactory();
+        $this->eventFactory = new EventFactory;
     }
 
     protected function tearDown(): void
